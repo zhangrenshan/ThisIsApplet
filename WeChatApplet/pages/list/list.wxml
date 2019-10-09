@@ -1,2 +1,23 @@
 <!--pages/list/list.wxml-->
-<text>pages/list/list.wxml</text>
+<view>
+  <view class="body_1 body_0">
+    <navigator class="label" url="/pages/pencil_sketch/pencil_sketch" open-type="redirect">
+      <text>素描</text>
+    </navigator>
+  </view>
+  <view class="body_2 body_0">
+    <navigator class="label" url="/pages/sketch/sketch" open-type="redirect">
+      <text>速写</text>
+    </navigator>
+  </view>
+  <view class="body_3 body_0">
+    <navigator class="label" url="/pages/color_painting/color_painting" open-type="redirect">
+      <text>色彩</text>
+    </navigator>
+  </view>
+  <view class="body_4 body_0">
+    <navigator class="label" url="/pages/grease_paint/grease_paint" open-type="redirect">
+      <text>油画</text>
+    </navigator>
+  </view>
+</view>

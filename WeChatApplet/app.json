@@ -3,7 +3,11 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/list/list",
-    "pages/set/set"
+    "pages/set/set",
+    "pages/pencil_sketch/pencil_sketch",
+    "pages/sketch/sketch",
+    "pages/color_painting/color_painting",
+    "pages/grease_paint/grease_paint"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -14,31 +18,30 @@
   "tabBar": {
     "list": [
       {
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "/images/index.png",
-      "selectedIconPath": "/images/index.png"
-    },
-    {
-      "pagePath": "pages/list/list",
-      "text": "列表",
-      "iconPath": "/images/list.png",
-      "selectedIconPath": "/images/list.png"
-    },
-    {
-      "pagePath": "pages/logs/logs",
-      "text": "日志",
-      "iconPath": "/images/log.png",
-      "selectedIconPath": "/images/log.png"
-    },
-    {
-      "pagePath": "pages/set/set",
-      "text": "设置",
-      "iconPath": "/images/set.png",
-      "selectedIconPath": "/images/set.png"
-    }
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/index.png",
+        "selectedIconPath": "/images/index.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "列表",
+        "iconPath": "/images/list.png",
+        "selectedIconPath": "/images/list.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "/images/log.png",
+        "selectedIconPath": "/images/log.png"
+      },
+      {
+        "pagePath": "pages/set/set",
+        "text": "设置",
+        "iconPath": "/images/set.png",
+        "selectedIconPath": "/images/set.png"
+      }
     ]
-  }
-  ,
+  },
   "sitemapLocation": "sitemap.json"
 }

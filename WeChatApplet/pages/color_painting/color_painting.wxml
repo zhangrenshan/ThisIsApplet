@@ -1,0 +1,7 @@
+<!--pages/color_painting/color_painting.wxml-->
+<view>
+  <navigator url="/pages/list/list" open-type="switchTab">
+    <text id="return">返回上一页</text>
+  </navigator>
+</view>
+<text>这是色彩详情页</text>
