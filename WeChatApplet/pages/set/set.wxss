@@ -1,1 +1,5 @@
 /* pages/set/set.wxss */
+
+view {
+  margin-top: 3rem;
+}

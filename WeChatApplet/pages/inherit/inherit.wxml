@@ -1,0 +1,11 @@
+<!--pages/inherit/inherit.wxml-->
+<import src="/pages/base/base" />
+<view>
+  <navigator url="/pages/set/set" open-type="switchTab">返回上一页</navigator>
+</view>
+<view>
+  <text>我继承的模板base页1</text>
+</view>
+<template is="head" />
+
+<template is="body" data="{{ project }}" />

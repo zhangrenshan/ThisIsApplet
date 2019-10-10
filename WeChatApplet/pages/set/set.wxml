@@ -1,50 +1,12 @@
 <!--pages/set/set.wxml-->
-<!--pages/set/set.wxml-->
-<view class="views">
-  <text>框架知识</text>
+<view>
+  <navigator url="/pages/variate/variate" open-type="redirect">
+    <text>变量的使用</text>
+  </navigator>
 </view>
-<view class="views">
-  <text>
-    ⒈引用变量
-      我是js文件中页面的初始数据data: {{ message }}
-    
-    ⒉变量的拼接
-      {{ message }}_{{ app.globalData }}
-    {{ app.globalData.userInfo }}
-    ⒊变量的索引
-      {{ project[1] }}
-    
-    ⒋变量的属性
-      姓名：{{ object.name }}
-      年龄：{{ object.age }}
-    
-    ⒌变量的运算
-      {{ object.age + 10 }}
-    
-    ⒍条件绑定
-      <text wx:if="{{ object.age > 10 }}">
-        年龄大于10
-      </text>
-      <text wx:elif="{{ object.age > 5 }}">
-        年龄大于5
-      </text>
-      <text wx:else>
-        年龄大于0
-      </text>
-    
-    ⒎循环绑定
-      <text wx:for="{{ project }}">
-        <text>
-          {{ index }}_{{ item }}
-        </text>
-      </text>
-    
-    ⒏循环指定循环和变量（多用于嵌套循环）
-      <text wx:for="{{ project }}" wx:for-index="i" wx:for-item="j">
-        <text>
-          {{ i }}_{{ j }}
-        </text>
-      </text>
-  </text>
+<view>
+  <navigator url="/pages/inherit/inherit" open-type="redirect">
+    <text>模板继承</text>
+  </navigator>
 </view>
 

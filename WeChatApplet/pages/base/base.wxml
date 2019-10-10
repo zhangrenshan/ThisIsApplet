@@ -1,0 +1,31 @@
+<!--pages/base/base.wxml-->
+<view>
+  <text>模板页</text>
+</view>
+
+<template name="head">
+  <view class="top">
+  <swiper indicator-dots="true" autoplay="true" interval="3000" duration="3000">
+    <swiper-item>
+      <image class="lunbo" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570613509562&di=8c8dad02ea2d55348095b3c4b03da206&imgtype=0&src=http%3A%2F%2Fimg.daimg.com%2Fuploads%2Fallimg%2F120531%2F1-120531191RI26.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="lunbo" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570613553604&di=c49e820970e0253bdd2c14e5f3da8f37&imgtype=0&src=http%3A%2F%2Fpic37.nipic.com%2F20140117%2F2531170_215624628000_2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image class="lunbo" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570613563383&di=37d99bafcf7b5d8364f0274536d1b1de&imgtype=0&src=http%3A%2F%2Fpic49.nipic.com%2Ffile%2F20140929%2F14747315_013343673504_2.jpg"></image>
+    </swiper-item>
+  </swiper>
+  </view>
+</template>
+
+<template name="body">
+  <view class="container">
+    <!--此处class的item和变量里的item不是一回事儿-->
+    <view class="item" wx:for="{{ project }}" wx:key="key" style="background-color: {{ item.color }}">
+      <navigator url="{{ item.url }}">
+        <text>{{ item.name }}</text>
+      </navigator>
+    </view>
+  </view>
+</template>
