@@ -1,10 +1,20 @@
 // pages/set/set.js
+const app = getApp()
+
+console.log(app)
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    "message": "hello world",
+    "app": app,
+    "project": "python",
+    "object": {
+      "name": "Jack",
+      "age": 0
+    }
 
   },
 

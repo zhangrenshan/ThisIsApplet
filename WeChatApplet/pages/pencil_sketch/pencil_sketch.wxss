@@ -1,6 +1,9 @@
 /* pages/pencil_sketch/pencil_sketch.wxss */
 
-#return {
-  display: inline-block;
-  background-color: "#EE7600";
+.top {
+  width: 20%;
+  height: 1rem;
+  border: 1px solid red;
+  background-color: #EE7600;
 }
+

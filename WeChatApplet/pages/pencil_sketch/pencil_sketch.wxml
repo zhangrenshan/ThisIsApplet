@@ -1,7 +1,38 @@
 <!--pages/pencil_sketch/pencil_sketch.wxml-->
-<view>
+<view class="top">
   <navigator url="/pages/list/list" open-type="switchTab">
     <text id="return">返回上一页</text>
   </navigator>
 </view>
-<text>这是素描详情页</text>
+<view class="content">
+  <view class="body">
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570631392916&di=275ac3a166ab7148f8d7f7be486b8351&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201705%2F13%2F20170513151004_SwUkQ.thumb.700_0.jpeg">
+    </image>
+    <text>为何我的眼里常含泪水，因为我爱你爱的深沉</text>
+  </view>
+  <view class="body">
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570631392916&di=275ac3a166ab7148f8d7f7be486b8351&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201705%2F13%2F20170513151004_SwUkQ.thumb.700_0.jpeg">
+    </image>
+    <text>为何我的眼里常含泪水，因为我爱你爱的深沉</text>
+  </view>
+  <view class="body">
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570631392916&di=275ac3a166ab7148f8d7f7be486b8351&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201705%2F13%2F20170513151004_SwUkQ.thumb.700_0.jpeg">
+    </image>
+    <text>为何我的眼里常含泪水，因为我爱你爱的深沉</text>
+  </view>
+  <view class="body">
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570631392916&di=275ac3a166ab7148f8d7f7be486b8351&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201705%2F13%2F20170513151004_SwUkQ.thumb.700_0.jpeg">
+    </image>
+    <text>为何我的眼里常含泪水，因为我爱你爱的深沉</text>
+  </view>
+  <view class="body">
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570631392916&di=275ac3a166ab7148f8d7f7be486b8351&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201705%2F13%2F20170513151004_SwUkQ.thumb.700_0.jpeg">
+    </image>
+    <text>为何我的眼里常含泪水，因为我爱你爱的深沉</text>
+  </view>
+  <view class="body">
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1570631392916&di=275ac3a166ab7148f8d7f7be486b8351&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201705%2F13%2F20170513151004_SwUkQ.thumb.700_0.jpeg">
+    </image>
+    <text>为何我的眼里常含泪水，因为我爱你爱的深沉</text>
+  </view>
+</view>
